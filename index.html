@@ -12,6 +12,40 @@
 </head>
 
 <body>
+    <div class="root-el">
+        <header>
+            <h1>Stock Profit & Loss Calculator</h1>
+            <div class="overlay-container">
+                <img class="hero-img" src="./images/mark14-hero-img.jpg" alt="">
+                <div class="overlay"><span class="sr-only">this is an overlay effect</span></div>
+            </div>
+
+        </header>
+        <main class="container">
+            <form id="stock-price-form">
+                <label class="input-label" for="initial-price">
+                    Initial Price </label>
+                <input required class="input" type="number" id="initial-price" />
+
+                <label class="input-label" for="stocks-qty">
+                    Quantity of Stocks </label>
+                <input required class="input" type="number" id="stocks-qty" />
+
+                <label class="input-label" for="current-price">
+                    Current Price</label>
+                <input required class="input" type="number" id="current-price" />
+
+
+                <button id="submit-btn" class="check-btn">Show Me</button>
+
+            </form>
+            <div id="output-box" class="output"></div>
+        </main>
+        <footer>
+            <p>&copy; | 2022 | <a href="https://muralidhar-portfolio.netlify.app/" target="_blank">Muralidhar</a></p>
+        </footer>
+    </div>
+
     <script src="./app.js"></script>
 </body>
 
